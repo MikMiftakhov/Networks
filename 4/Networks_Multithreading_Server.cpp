@@ -157,3 +157,4 @@ DWORD WINAPI ConectToClient(LPVOID clientSocket)								//по факту дел
 	closesocket(newClient);
 	return 0;
 }
+//есп-клиент остается без изменений
